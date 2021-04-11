@@ -404,6 +404,18 @@
 		-webkit-animation-iteration-count: 1;
 		animation-iteration-count: 1;
 	}
+    #page-content-wrapper {
+        padding: 0 !important;
+    }
+    #page-content-wrapper > :not(.parallax):not(.copyrights):not(.nopad):not(.all-page-bar) {
+        margin: 0 15px;
+    }
+    .parallax {
+        padding: 15px;
+    }
+    .nopad {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 600px) {
