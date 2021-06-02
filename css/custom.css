@@ -18,3 +18,34 @@ p {
 li {
   text-align: justify;
 }
+#home {
+  background-attachment: inherit !important;
+  background-position: 0px 0px !important;
+}
+
+.owl-dots {
+  z-index: 100;
+}
+.owl-dot {
+  z-index: 100;
+}
+
+#full-width .owl-dots {
+  bottom: 10%;
+}
+
+.extra {
+  background: url(../images/extraservice.jpeg);
+}
+
+.dye {
+  background: url(../images/dye.jpeg);
+}
+
+.servicebg {
+  background: url(../images/slider3.jpeg);
+}
+
+.sustainbg {
+  background: url(../images/sustainbg.jpeg);
+}

@@ -409,7 +409,7 @@
     padding: 0 !important;
   }
   #page-content-wrapper
-    > :not(.parallax):not(.copyrights):not(.nopad):not(.all-page-bar) {
+    > :not(.parallax):not(.copyrights):not(.nopad):not(.all-page-bar):not(#full-width) {
     margin: 0 15px;
   }
   .parallax {
