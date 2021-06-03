@@ -2215,7 +2215,9 @@ select.mobile-device {
     background: #bb9d52;
     z-index: 11000;
     position: fixed;
-    display: block
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .preloader {
